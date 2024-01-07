@@ -1,0 +1,147 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.navBar{
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navBar p{
+    align-self: center;
+}
+
+.facebook{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mainPage{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+.profile{
+    width: 20%;   
+}
+
+.profile1{
+    border: 1px lightgray solid;
+}
+
+
+.profile1 h3{
+    font-weight: 500;
+    font-size: 22px;
+    margin: 10px 10px;
+}
+
+.profile1 p{
+    color:grey;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 10px 30px;
+}
+
+.profile table, tr, td{
+    width: 100%;
+    border: 1px lightgray solid;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.friendsPage{
+    width: 54%;
+}
+
+.friends{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+
+.friends:nth-child(n+1){
+    margin-bottom: 40px;
+}
+
+.picture{
+    width: 18%;
+}
+
+.picture img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+.friendsData{
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data{
+    width: 80%;
+    padding-left: 10px;
+}
+
+.data p:first-child{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.data p:nth-child(2){
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.data button{
+    font-size: 20px;
+    padding: 5px;
+    background-color: dimgray;
+    color: white;
+}
+
+.remove{
+    width: 20%;
+    text-align: right;
+}
+
+.remove button{
+    font-size: 20px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+
+.lastNews{
+    width: 20%;
+}
+
+.lastNews1{
+    display: flex;
+    justify-content: space-between;
+    border: 1px lightgray solid;
+    padding: 0 10px;
+}
+
+.lastNews1 p{
+    margin: 7px;
+}
